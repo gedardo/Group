@@ -1,0 +1,7 @@
+metodologia utilizada en cada pagina:
+
+index: css -  animacion (scrollup) - grid - full responsive
+alquileres: css - animacion (scrollup) - flexbox
+ventas:  css - table - flexbox
+contacto: css - forms - flexbox
+nosotros: css
