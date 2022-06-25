@@ -165,11 +165,24 @@ li {
 }
 
 table {
-  padding: 20px;
-  background-color: #CA82FF;
   text-align: center;
   display: flexbox;
   margin: auto;
+}
+
+.linear-gradient {
+  background-image: linear-gradient(to top, #CA82FF, #371B58);
+}
+
+.animate-big {
+  width: 4em;
+  height: 300px;
+  transition: all 2s;
+}
+
+.animate-big:hover {
+  height: 400px;
+  width: 800px;
 }
 
 body>input {
