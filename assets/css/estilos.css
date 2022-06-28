@@ -92,7 +92,7 @@ body {
 header img {
   float: left;
   height: 5em;
-  margin: 10px 0px 0px 40px;
+  padding: 20px;
 }
 
 .header__titulo {
@@ -214,7 +214,7 @@ p {
 }
 
 section {
-  background-color: #A760FF;
+  background-color: #fed8a0;
   width: 100%;
 }
 
@@ -323,7 +323,7 @@ footer {
 .scrollup {
   border: 2px solid #ececec;
   bottom: 35px;
-  color: #ececec;
+  color: #0cbb38;
   font-size: 26px;
   height: 40px;
   line-height: 1.3;
