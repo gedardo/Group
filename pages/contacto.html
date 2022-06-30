@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../assets/css/estilos.css" />
   <link rel="stylesheet" href="../assets/css/fontawesome.css" />
   <link rel="stylesheet" href="../assets/css/animate.css" />
@@ -18,19 +19,21 @@
 
 <body>
 
-  <header>
-    <a href="https://www.facebook.com/Group-Administraciones-324704391750638/">
-      <img src="../assets/images/logo.jpg" alt="Logotipo GROUP" />
-    </a>
-    <h1 class="header__titulo">GROUP - ADMINISTRACION DE PROPIEDADES Y CONSORCIOS</h1>
+  <header id="header">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"><img src="../assets/images/logo.JPG" alt="" class="img-fluid"></a>
+      <h1 class="header__titulo">GROUP - ADMINISTRACION DE PROPIEDADES Y CONSORCIOS</h1>
+    </div>
   </header>
 
-  <h2  class="wow animate__backInRight" data-wow-duration="4s" data-wow-delay=".5s">
+  <h2 class="wow animate__backInRight" data-wow-duration="4s" data-wow-delay=".5s">
     Dejanos tus datos y nos contactaremos con vos a la brevedad!</h2>
 
   <form action="gracias.html" method="get" enctype="application/x-www-form-urlencoded">
-    <article>
-      <fieldset>
+
+    <article class="container position-relative">
+
+      <fieldset class="form-group">
         <legend>Datos Personales</legend>
         <label for="nombre">Nombre: </label>
         <input type="text" name="nombre" placeholder="Ingresa tu Nombre" /><br><br>
@@ -50,7 +53,7 @@
         </select>
       </fieldset>
 
-      <fieldset style="margin: 50px;">
+      <fieldset class="form-group">
         <label for="interes" style="font-size: 20px;">Interés por contacto: </label><br><br>
         <input type="radio" name="interes" id="alquiler" value="alquiler" />
         <label for="alquiler">ALQUILER</label><br>
@@ -69,6 +72,7 @@
       <input type="reset" value="LIMPIAR" />
       <input type="button" onclick="history.back()" name="volver atrás" value=VOLVER>
     </div>
+    
   </form>
 
   <footer>

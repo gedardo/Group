@@ -1,7 +1,7 @@
 metodologia utilizada en cada pagina:
 
 index: boostrap - animacion (scrollup) - grid - full responsive
-alquileres: css - animacion (scrollup) - flexbox
-ventas:  css - table - flexbox - animacion (linear-gradient and big)
-contacto: css - forms - flexbox - animated wow
-nosotros: css
+alquileres: boostrap - css - animacion (scrollup) - flexbox
+ventas:  boostrap - css - table - flexbox - animacion (linear-gradient and big)
+contacto: boostrap - css - forms - flexbox - animated wow
+nosotros: boostrap - css
