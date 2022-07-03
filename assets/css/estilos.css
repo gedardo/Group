@@ -203,12 +203,12 @@ header img {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-style: italic;
   text-decoration: underline;
   color: black;
   padding: 20px 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -221,8 +221,9 @@ p {
   line-height: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 20px;
-  font-size: 18px;
+  font-size: 1.2rem;
   text-align: center;
+  text-shadow: white;
 }
 
 section {
@@ -258,22 +259,18 @@ fieldset {
   margin: 20px;
 }
 
-.boxAlquileres {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
-}
 
 li {
   font-size: 1rem;
-  margin-right: 15px;
-  margin: 10px;
+  margin: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
+
 .liAlquileres {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  background-color: #A760FF;
 }
 
 table {
@@ -314,7 +311,7 @@ body>form>div>input {
   margin-left: 10px;
 }
 
-input:hover{
+input:hover {
   background-color: #ececec;
 }
 
