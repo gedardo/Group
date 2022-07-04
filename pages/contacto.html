@@ -31,48 +31,55 @@
 
   <form action="gracias.html" method="get" enctype="application/x-www-form-urlencoded">
 
-    <article class="container position-relative">
+    <article class="container position-relative justify-content-around">
 
-      <fieldset class="form-group">
+      <div class="form-group">
         <legend>Datos Personales</legend>
         <label for="nombre">Nombre: </label>
-        <input type="text" name="nombre" placeholder="Ingresa tu Nombre" /><br><br>
+        <input type="text" class="form-control" name="nombre" placeholder="Ingresa tu Nombre" /><br>
         <label for="apellido"> Apellido: </label>
-        <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu Apellido" /><br><br>
+        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingresa tu Apellido" /><br>
         <label for="apellido"> Telefono: </label>
-        <input type="number" name="telefono" id="telefono" placeholder="" /><br><br>
+        <input type="number" class="form-control" name="telefono" id="telefono" placeholder="" /><br>
         <label for="email">Email: </label>
-        <input type="email" id="email" name="email" required /><br /><br />
+        <input type="email" class="form-control" id="email" name="email" required /><br />
         <label for="nacimiento">Fecha de Nacimiento: </label>
-        <input type="date" name="nacimiento" id="nacimiento" /><br /><br />
+        <input type="date" class="form-control" name="nacimiento" id="nacimiento" /><br />
         <label for="sexo">Sexo: </label>
-        <select name="sexo" id="sexo">
+        <select name="sexo" class="form-control" id="sexo">
           <option value="M">Masculino</option>
           <option selected value="F">Femenino</option>
           <option value="O">Otro</option>
         </select>
-      </fieldset>
+      </div>
 
-      <fieldset class="form-group">
-        <label for="interes" style="font-size: 20px;">Interés por contacto: </label><br><br>
-        <input type="radio" name="interes" id="alquiler" value="alquiler" />
-        <label for="alquiler">ALQUILER</label><br>
-        <input type="radio" name="interes" id="compra" value="compra" />
-        <label for="compra">COMPRA</label><br>
-        <input type="radio" name="interes" id="venta" value="venta" />
-        <label for="venta">VENTA</label>
-        <br><br>
+      <div class="form-group">
+        <label for="interes" style="font-size: 2rem;">Interés por contacto: </label><br>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="alquiler" name="alquiler" class="custom-control-input">
+          <label class="custom-control-label" for="alquiler">Alquileres</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="compra" name="compra" class="custom-control-input">
+          <label class="custom-control-label" for="compra">Compra</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="venta" name="venta" class="custom-control-input">
+          <label class="custom-control-label" for="venta">Venta</label>
+        </div><br>
         <label for="comentarios">Comentarios</label><br />
-        <textarea name="comentarios" id="comentarios" rows="5" cols="40"></textarea>
-      </fieldset>
-    </article>
+        <textarea class="form-control" name="comentarios" id="comentarios" rows="auto" cols="auto"></textarea><br>
+        <img src="../assets/images/large.jpg" class="img-fluid" alt="Responsive image" style="height: 25rem;"><br>
+      </div>
+
+    </article><br>
 
     <div style="text-align: center;">
       <input type="submit" value="ENVIAR" style="background-color: rgb(78, 228, 78);" />
       <input type="reset" value="LIMPIAR" />
       <input type="button" onclick="history.back()" name="volver atrás" value=VOLVER>
     </div>
-    
+
   </form>
 
   <footer>
