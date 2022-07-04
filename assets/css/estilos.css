@@ -66,6 +66,7 @@ body {
     align-items: center;
   }
 
+  .navbar a,
   .navbar a:focus {
     display: flex;
     align-items: center;
@@ -205,10 +206,11 @@ h2 {
   font-size: 2em;
   font-style: italic;
   text-decoration: underline;
-  color: black;
   padding: 20px 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+  color: rgb(47, 74, 196);
 }
 
 article>p {
