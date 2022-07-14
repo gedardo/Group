@@ -6,18 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../assets/css/estilos.css" />
+  <!-- <link rel="stylesheet" href="../assets/css/estilos.css" /> -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/fontawesome.css" />
+  <script src="../assets/js/wow.js"></script>
+  <link rel="stylesheet" href="../assets/css/animate.css" />
+  <script>
+    new WOW().init();
+  </script>
 
   <title>GROUP - ALQUILERES</title>
 </head>
 
 <body>
 
-  <header id="header">
+  <header class="header">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"><img src="../assets/images/logo.jpg" alt="" class="img-fluid"></a>
-      <h1 class="header__titulo">GROUP - ADMINISTRACION DE PROPIEDADES Y CONSORCIOS</h1>
+      <a href="../index.html"><img src="../assets/images/logo.jpg"></a>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="alquileres.html">Alquileres</a>
+          </li>
+          <li>
+            <a href="ventas.html">Ventas</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contactanos</a>
+          </li>
+          <li>
+            <a href="nos.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">Nuestro
+              facebook</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -25,7 +50,7 @@
     <div class="row justify-content-center">
       <div class="col-xl-7 col-lg-9 text-center">
         <h2>Alquileres disponibles en Tucumán</h2>
-        <ul class="list-group text-light">
+        <ul class="list-group text-light   wow animate__backInRight" data-wow-duration="4s" data-wow-delay=".2s">
           <li class="list-group-item liAlquileres">Salta 1140</li>
           <li class="list-group-item liAlquileres">Jujuy 2154</li>
           <li class="list-group-item liAlquileres">Aconquija 2500</li>

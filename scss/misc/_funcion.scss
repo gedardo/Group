@@ -1,0 +1,24 @@
+.linear-gradient {
+    background-image: linear-gradient(to top, #6c31af, #fed8a0);
+    width: 100%;
+}
+
+.animate-big {
+    width: 800px;
+    height: 200px;
+    transition: all 1s;
+
+    &:hover {
+        height: 300px;
+        width: 800px;
+    }
+}
+
+.img-large {
+    display: block;
+    margin: 0px auto;
+}
+
+.rounded {
+    border-radius: 20%;
+}

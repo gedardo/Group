@@ -6,48 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../assets/css/estilos.css" />
+  <!-- <link rel="stylesheet" href="../assets/css/estilos.css" /> -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/fontawesome.css" />
   <title>GROUP - VENTAS</title>
 </head>
 
 <body>
 
-  <header id="header">
+  <header class="header">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"><img src="../assets/images/logo.jpg" alt="" class="img-fluid"></a>
-      <h1 class="header__titulo">GROUP - ADMINISTRACION DE PROPIEDADES Y CONSORCIOS</h1>
+      <a href="../index.html"><img src="../assets/images/logo.jpg"></a>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="alquileres.html">Alquileres</a>
+          </li>
+          <li>
+            <a href="ventas.html">Ventas</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contactanos</a>
+          </li>
+          <li>
+            <a href="nos.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">Nuestro
+              facebook</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <h2>Ventas de inmuebles en Tucumán</h2>
 
-  <table border="2" class="table animate-big linear-gradient">
-    <tr>
-      <th>Ubicacion</th>
-      <th>Ambientes</th>
-      <th>Metros Cuadrados</th>
-      <th>Valor</th>
-    </tr>
-    <tr>
-      <td>Coronel Suarez 1450</td>
-      <td>2 dorm 1 cocina 1 comedor</td>
-      <td>450</td>
-      <td>$ 2.5M</td>
-    </tr>
-    <tr>
-      <td>Crisostomo Alvarez 43</td>
-      <td>4 dorm 1 cocina/comedor</td>
-      <td>950</td>
-      <td>$ 5M</td>
-    </tr>
-    <tr>
-      <td>Country Las Yungas</td>
-      <td>5 dorm 1 cocina 2 comedor</td>
-      <td>2000</td>
-      <td>$ 20M</td>
-    </tr>
-  </table>
+  <div class="justify-content-center text-center">
+    <h2>Ventas de inmuebles en Tucumán</h2>
+
+    <table border="2" class="table animate-big linear-gradient">
+      <tr>
+        <th>Ubicacion</th>
+        <th>Ambientes</th>
+        <th>Metros Cuadrados</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td>Coronel Suarez 1450</td>
+        <td>2 dorm 1 cocina 1 comedor</td>
+        <td>450</td>
+        <td>$ 2.5M</td>
+      </tr>
+      <tr>
+        <td>Crisostomo Alvarez 43</td>
+        <td>4 dorm 1 cocina/comedor</td>
+        <td>950</td>
+        <td>$ 5M</td>
+      </tr>
+      <tr>
+        <td>Country Las Yungas</td>
+        <td>5 dorm 1 cocina 2 comedor</td>
+        <td>2000</td>
+        <td>$ 20M</td>
+      </tr>
+    </table>
+  </div>
 
   <input class="boton" type="button" onclick="history.back()" name="volver atrás" value=VOLVER>
 

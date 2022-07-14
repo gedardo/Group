@@ -6,85 +6,103 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../assets/css/estilos.css" />
+  <!-- <link rel="stylesheet" href="../assets/css/estilos.css" /> -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/fontawesome.css" />
-  <link rel="stylesheet" href="../assets/css/animate.css" />
-  <script src="../assets/js/wow.js"></script>
-  <script>
-    new WOW().init();
-  </script>
+
 
   <title>GROUP - CONTACTO</title>
 </head>
 
 <body>
 
-  <header id="header">
+  <header class="header">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"><img src="../assets/images/logo.jpg" alt="" class="img-fluid"></a>
-      <h1 class="header__titulo">GROUP - ADMINISTRACION DE PROPIEDADES Y CONSORCIOS</h1>
+      <a href="../index.html"><img src="../assets/images/logo.jpg"></a>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="alquileres.html">Alquileres</a>
+          </li>
+          <li>
+            <a href="ventas.html">Ventas</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contactanos</a>
+          </li>
+          <li>
+            <a href="nos.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">Nuestro
+              facebook</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <h2 class="wow animate__backInRight" data-wow-duration="4s" data-wow-delay=".5s">
-    Dejanos tus datos y nos contactaremos con vos a la brevedad!!!</h2>
+  <div class="justify-content-center">
+    <h2 style="text-align: center;">
+      Dejanos tus datos y nos contactaremos con vos a la brevedad!!!</h2>
 
-  <form action="gracias.html" method="get" enctype="application/x-www-form-urlencoded">
+    <form action="gracias.html" method="get" enctype="application/x-www-form-urlencoded">
 
-    <article class="container position-relative justify-content-around">
+      <article class="container position-relative justify-content-around">
 
-      <div class="form-group">
-        <legend>Datos Personales</legend>
-        <label for="nombre">Nombre: </label>
-        <input type="text" class="form-control" name="nombre" placeholder="Ingresa tu Nombre" /><br>
-        <label for="apellido"> Apellido: </label>
-        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingresa tu Apellido" /><br>
-        <label for="apellido"> Telefono: </label>
-        <input type="number" class="form-control" name="telefono" id="telefono" placeholder="" /><br>
-        <label for="email">Email: </label>
-        <input type="email" class="form-control" id="email" name="email" required /><br />
-        <label for="nacimiento">Fecha de Nacimiento: </label>
-        <input type="date" class="form-control" name="nacimiento" id="nacimiento" /><br />
-        <label for="sexo">Sexo: </label>
-        <select name="sexo" class="form-control" id="sexo">
-          <option value="M">Masculino</option>
-          <option selected value="F">Femenino</option>
-          <option value="O">Otro</option>
-        </select>
+        <div class="form-group">
+          <legend>Datos Personales</legend>
+          <label for="nombre">Nombre: </label>
+          <input type="text" class="form-control" name="nombre" placeholder="Ingresa tu Nombre" /><br>
+          <label for="apellido"> Apellido: </label>
+          <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingresa tu Apellido" /><br>
+          <label for="apellido"> Telefono: </label>
+          <input type="number" class="form-control" name="telefono" id="telefono" placeholder="" /><br>
+          <label for="email">Email: </label>
+          <input type="email" class="form-control" id="email" name="email" required /><br />
+          <label for="nacimiento">Fecha de Nacimiento: </label>
+          <input type="date" class="form-control" name="nacimiento" id="nacimiento" /><br />
+          <label for="sexo">Sexo: </label>
+          <select name="sexo" class="form-control" id="sexo">
+            <option value="M">Masculino</option>
+            <option selected value="F">Femenino</option>
+            <option value="O">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <legend for="interes">Interés por contacto: </legend><br>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="alquiler" name="alquiler" class="custom-control-input">
+            <label class="custom-control-label" for="alquiler">Alquileres</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="compra" name="compra" class="custom-control-input">
+            <label class="custom-control-label" for="compra">Compra</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="venta" name="venta" class="custom-control-input">
+            <label class="custom-control-label" for="venta">Venta</label>
+          </div><br>
+          <label for="comentarios">Comentarios</label><br />
+          <textarea class="form-control" name="comentarios" id="comentarios" rows="auto" cols="auto"></textarea><br>
+          <img src="../assets/images/large.jpg" class="img-fluid" alt="Responsive image" style="height: 30em;"><br>
+        </div>
+
+      </article><br>
+
+      <div style="text-align: center; padding-bottom: 20px;">
+        <input type="submit" class="boton" value="ENVIAR" style="background-color: rgb(78, 228, 78);" />
+        <input class="boton" type="reset" value="LIMPIAR" style="background-color: red;" />
+        <input class="boton" type="button" onclick="history.back()" name="volver atrás" value=VOLVER>
       </div>
 
-      <div class="form-group">
-        <label for="interes" style="font-size: 2rem;">Interés por contacto: </label><br>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="alquiler" name="alquiler" class="custom-control-input">
-          <label class="custom-control-label" for="alquiler">Alquileres</label>
-        </div>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="compra" name="compra" class="custom-control-input">
-          <label class="custom-control-label" for="compra">Compra</label>
-        </div>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="venta" name="venta" class="custom-control-input">
-          <label class="custom-control-label" for="venta">Venta</label>
-        </div><br>
-        <label for="comentarios">Comentarios</label><br />
-        <textarea class="form-control" name="comentarios" id="comentarios" rows="auto" cols="auto"></textarea><br>
-        <img src="../assets/images/large.jpg" class="img-fluid" alt="Responsive image" style="height: 25rem;"><br>
-      </div>
-
-    </article><br>
-
-    <div style="text-align: center;">
-      <input type="submit" value="ENVIAR" style="background-color: rgb(78, 228, 78);" />
-      <input class="boton" type="reset" value="LIMPIAR" />
-      <input class="boton" type="button" onclick="history.back()" name="volver atrás" value=VOLVER>
-    </div>
-
-  </form>
+    </form>
+  </div>
 
   <footer>
-    <span style="font-size: 11px;">Copyright &copy; - Gerardo Navarro &reg;</span>
-    <div style="margin-top: 10px">
+    <span style="font-size: 0.5em;">Copyright &copy; - Gerardo Navarro &reg;</span>
+    <div>
       <span>
         <i class="fab fa-facebook"></i>
       </span>

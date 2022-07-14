@@ -1,2 +1,11 @@
-@import'./scss/main/grid';
-@import'./scss/main/hero';
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/elements';
+@import './misc/funcion';
+
+@import './main/header';
+@import './main/corousel';
+@import './main/body';
+@import './main/grid';
+@import './main/hero';
+@import './main/footer';

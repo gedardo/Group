@@ -1,0 +1,101 @@
+body {
+    background-color: $primary;
+    width: 100%;
+    height: 100vh;
+
+    h2 {
+        color: $bac-blue;
+        font-size: $medium;
+        font-family: $font-title;
+        padding: 20px;
+    }
+
+    h5 {
+        color: $text-blue;
+        font-size: $medium;
+        padding: 10px;
+    }
+
+    li {
+        font-size: $small;
+        margin: 5px;
+        font-family: $font-principal;
+    }
+
+    label {
+        font-size: $small;
+    }
+
+    legend {
+        font-size: 40px;
+        color: black;
+    }
+
+    &>input {
+        font-size: $medium;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: 20px 47%;
+    }
+
+    form>div>input {
+        margin: 10px;
+        font-size: $small;
+        padding: 5px;
+    }
+
+    p {
+        line-height: 30px;
+        font-family: $font-principal;
+        font-size: $small;
+        text-align: center;
+        text-shadow: white;
+        color: $text-blue;
+    }
+}
+
+#bienvenida {
+    color: #092e5e;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    color: #052a56;
+    font-size: $large;
+}
+
+.liAlquileres {
+    font-size: $small;
+    background-color: $secundary;
+}
+
+section {
+    background-color: $primary;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &>p {
+        color: whitesmoke;
+        font-size: 20px;
+    }
+}
+
+
+
+table {
+    margin: auto;
+    text-align: center;
+
+    th {
+        font-size: $medium;
+        color: $text-blue;
+    }
+
+    td {
+        font-size: $small;
+        color: whitesmoke;
+    }
+}
