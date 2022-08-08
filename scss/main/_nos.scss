@@ -1,0 +1,25 @@
+.nos .content h3 {
+    font-weight: 700;
+    font-size: $medium;
+    color: $bac-blue;
+  }
+  
+  .nos .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nos .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .nos .content ul i {
+    font-size: $med-small;
+    padding-right: 4px;
+    color: $iconos;
+  }
+  
+  .nos .content p:last-child {
+    margin-bottom: 0;
+  }
+  

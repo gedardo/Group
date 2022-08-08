@@ -18,7 +18,7 @@
 
   <header class="header">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="../index.html"><img src="../assets/images/logo.jpg"></a>
+      <a href="../index.html"><img src="../assets/images/logo.png"></a>
       <nav class="navbar">
         <ul>
           <li>
@@ -34,8 +34,10 @@
             <a href="nos.html">Nosotros</a>
           </li>
           <li>
-            <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">Nuestro
-              facebook</a>
+            <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">
+              <span>
+                <i class="fab fa-facebook"></i>
+              </span></a>
           </li>
         </ul>
       </nav>
@@ -50,20 +52,20 @@
 
       <article class="container position-relative justify-content-around">
 
-        <div class="form-group">
+        <div class="form-group mb-3">
           <legend>Datos Personales</legend>
           <label for="nombre">Nombre: </label>
-          <input type="text" class="form-control" name="nombre" placeholder="Ingresa tu Nombre" /><br>
+          <input type="text" class="form-control form-control-lg" name="nombre" placeholder="Ingrese su Nombre" /><br>
           <label for="apellido"> Apellido: </label>
-          <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingresa tu Apellido" /><br>
+          <input type="text" class="form-control form-control-lg" name="apellido" id="apellido" placeholder="Ingrese su Apellido" /><br>
           <label for="apellido"> Telefono: </label>
-          <input type="number" class="form-control" name="telefono" id="telefono" placeholder="" /><br>
+          <input type="number" class="form-control form-control-lg" name="telefono" id="telefono" placeholder="Sin '0' ni '15'" /><br>
           <label for="email">Email: </label>
-          <input type="email" class="form-control" id="email" name="email" required /><br />
+          <input type="email" class="form-control form-control-lg" id="email" name="email" required /><br />
           <label for="nacimiento">Fecha de Nacimiento: </label>
-          <input type="date" class="form-control" name="nacimiento" id="nacimiento" /><br />
+          <input type="date" class="form-control-lg" name="nacimiento" id="nacimiento" /><br />
           <label for="sexo">Sexo: </label>
-          <select name="sexo" class="form-control" id="sexo">
+          <select name="sexo" class="form-control form-control-lg" id="sexo">
             <option value="M">Masculino</option>
             <option selected value="F">Femenino</option>
             <option value="O">Otro</option>
@@ -72,21 +74,27 @@
 
         <div class="form-group">
           <legend for="interes">Interés por contacto: </legend><br>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="alquiler" name="alquiler" class="custom-control-input">
-            <label class="custom-control-label" for="alquiler">Alquileres</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Alquiler</label>
           </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="compra" name="compra" class="custom-control-input">
-            <label class="custom-control-label" for="compra">Compra</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Compra</label>
           </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="venta" name="venta" class="custom-control-input">
-            <label class="custom-control-label" for="venta">Venta</label>
-          </div><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Venta</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Consorcio</label>
+          </div>
+          <br>
+          <br>
           <label for="comentarios">Comentarios</label><br />
-          <textarea class="form-control" name="comentarios" id="comentarios" rows="auto" cols="auto"></textarea><br>
-          <img src="../assets/images/large.jpg" class="img-fluid" alt="Responsive image" style="height: 30em;"><br>
+          <textarea class="form-control form-control-lg" name="comentarios" id="comentarios" rows="3" cols="auto"></textarea><br>
+          <img src="../assets/images/contacto.png" class="img-fluid" alt="Responsive image" style="height: 30em;"><br>
         </div>
 
       </article><br>
@@ -101,7 +109,7 @@
   </div>
 
   <footer>
-    <span style="font-size: 0.5em;">Copyright &copy; - Gerardo Navarro &reg;</span>
+    <span>Copyright &copy; - Gerardo Navarro &reg;</span>
     <div>
       <span>
         <i class="fab fa-facebook"></i>

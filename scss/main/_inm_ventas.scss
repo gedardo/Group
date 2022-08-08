@@ -1,0 +1,36 @@
+.inm_ventas .nav-link {
+  border: 0;
+  padding: 20px;
+  transition: 0.3s;
+  color: #364146;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+  border-left: 4px solid $bac-blue;
+
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    color: $bac-blue;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  :hover {
+    opacity: 30%;
+
+    h4 {
+      color: $text-blue;
+    }
+  }
+
+}
+
+.inm_ventas .nav-link.active {
+  background-color: $secundary;
+  border-left: 4px solid $iconos;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}

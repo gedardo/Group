@@ -1,48 +1,53 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="assets/css/estilos.css" /> -->
+  <meta name="description"
+    content="Inmobiliaria dedicada a la compra, venta, alquiler y administración de Imuebles en la Provincia de Tucumán">
   <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="shortcut icon" href="../assets/images/favico.ico">
   <title>GROUP Administraciones</title>
 </head>
 
-<header class="header">
-  <div class="container d-flex align-items-center justify-content-between">
-    <a href="index.html"><img src="assets/images/logo.jpg"></a>
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href="./pages/alquileres.html">Alquileres</a>
-        </li>
-        <li>
-          <a href="./pages/ventas.html">Ventas</a>
-        </li>
-        <li>
-          <a href="./pages/contacto.html">Contactanos</a>
-        </li>
-        <li>
-          <a href="./pages/nos.html">Nosotros</a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">Nuestro
-            facebook</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
 <body>
 
+  <header class="header">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html"><img src="assets/images/logo.png"></a>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="./pages/alquileres.html">Alquileres</a>
+          </li>
+          <li>
+            <a href="./pages/ventas.html">Ventas</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contactanos</a>
+          </li>
+          <li>
+            <a href="./pages/nos.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Group-Administraciones-324704391750638/" target="_blank">
+              <span>
+                <i class="fab fa-facebook"></i>
+              </span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <section>
-    <div class="row justify-content-center pt-5">
+    <div class="row justify-content-center pt-5 m-0">
       <div class="col-xl-7 col-lg-9 text-center">
         <h1 id="bienvenida">Bienvenidos a Group!</h1>
         <h5 class="justify-content-baseline">Somos una inmobiliaria con
@@ -53,120 +58,206 @@
           venta, entre otras propiedades.</h5>
       </div>
     </div>
-
+  </section>
+  
+  <section class="carousel row m-0 p-0 justify-content-center">
+    <div id="carrusel_index" class="carousel slide col-sm-8" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/c1.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/c2.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/c3.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/c4.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/c5.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/c6.png" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrusel_index" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrusel_index" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
-<section class="carousel row m-0 p-0 justify-content-center" >
-  <div id="carouselExampleControls" class="carousel slide col-sm-8" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/c1.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/c2.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/c3.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/c4.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/c5.jpg" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/c6.png" class="d-block w-100 mx-auto shadow p-1 mb-5 bg-dark rounded">
-      </div>
-
-    </div>
-  </div>
-</section>
-  
-  <section>
-    <h2 class="text-center">Amplia gama de inmuebles para una mejor elección a tu medida</h2>
+  <section class="grid">
+    <h2 class="text-center">Amplia gama de inmuebles en alquiler para una mejor elección a tu medida</h2>
     <div class="grid-container">
       <div class="grid-item">
-        <img src="assets/images/depto1.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto1.jpg" />
+        <div class="grid-info">
+          <h4>VIRGEN DE LA MERCED 100</h4>
+          <ul>
+            <li>Casa</li>
+            <li>2do piso</li>
+            <li>3 ambientes</li>
+            <li>Cocina comedor</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto2.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto2.jpg" />
+        <div class="grid-info">
+          <h4>Peru 789</h4>
+          <ul>
+            <li>Departamento</li>
+            <li>10mo piso</li>
+            <li>1 ambientes</li>
+            <li>Cocina comedor</li>
+            <li>Balcon a la calle</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto3.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto3.jpg" />
+        <div class="grid-info">
+          <h4>Italia 5487</h4>
+          <ul>
+            <li>Duplex</li>
+            <li>Planta baja</li>
+            <li>5 ambientes</li>
+            <li>Cocina comedor</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto4.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto4.jpg" />
+        <div class="grid-info">
+          <h4>España 2515</h4>
+          <ul>
+            <li>Departamento</li>
+            <li>4to piso</li>
+            <li>2 ambientes</li>
+            <li>Cocina comedor</li>
+            <li>Balcon a la calle</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto5.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto5.jpg" />
+        <div class="grid-info">
+          <h4>Chile 1345</h4>
+          <ul>
+            <li>Departamento</li>
+            <li>Planta Baja</li>
+            <li>3 ambientes</li>
+            <li>Cocina comedor</li>
+            <li>Balcon interno</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto6.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto6.jpg" />
+        <div class="grid-info">
+          <h4>Aconquija 2500</h4>
+          <ul>
+            <li>Casa</li>
+            <li>2 pisos</li>
+            <li>5 ambientes</li>
+            <li>Cocina comedor</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto7.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto7.jpg" />
+        <div class="grid-info">
+          <h4>Jujuy 2154</h4>
+          <ul>
+            <li>Departamento</li>
+            <li>4to piso</li>
+            <li>2 ambientes</li>
+            <li>Cocina comedor</li>
+            <li>Balcon a la calle</li>
+          </ul>
+        </div>
       </div>
       <div class="grid-item">
-        <img src="assets/images/depto8.jpg" style=" width: 100%; height: 100%;" />
+        <img src="assets/images/depto8.jpg" />
+        <div class="grid-info">
+          <h4>Congreso 23</h4>
+          <ul>
+            <li>PLANTA BAJA</li>
+            <li>Galería cerrada con asador</li>
+            <li>3 ambientes</li>
+            <li>Living- Comedor amplio</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-      <div class="row justify-content-center m-0 p-0">
+    <div class="container position-relative">
+      <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
-          <h1>ALQUILERES DESTACADOS</h1>
-          <h2>Estos son nuestros alquileres mas relevantes de este mes para tu mejor decisión</h2>
+          <h1>INMUEBLES DESTACADOS A LA VENTA</h1>
+          <h2>Estos son nuestros inmubeles a la venta mas relevantes de este mes para tu mejor decisión</h2>
         </div>
       </div>
 
       <div class="row icon-boxes">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box">
-            <h4 class="title"><a href="">Departamento en venta ubicado en calle Salta 965</a></h4>
+            <h4><a class="title" href="">Departamento en venta ubicado en calle Salta 965</a></h4>
             <p class="description"> - 3 dormitorios con placard empotrado <br>
               - 2 baños completos <br>
               - Cocina comedor <br>
               - Lavadero <br>
               - Living comedor amplio <br>
-              - Balcón a la calle <br></p>
+              - Balcón a la calle <br>
+              - $8.750.000 <br></p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box">
-            <h4 class="title"><a href="">Departamento en venta ubicado en calle Monteagudo 200</a></h4>
+            <h4><a class="title" href="">Departamento en venta ubicado en calle Monteagudo 200</a></h4>
             <p class="description">- 2 dormitorios con placard empotrado <br>
               - 2 baños completos <br>
               - Cocina comedor <br>
               - Lavadero <br>
               - Living comedor amplio <br>
-              - Balcón a la calle <br< /p>
+              - Balcón a la calle <br>
+              - $15.750.000 <br></p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box">
-            <h4 class="title"><a href="">Departamento en venta ubicado en calle Alberdi 876</a></h4>
+            <h4><a class="title" href="">Departamento en venta ubicado en calle Alberdi 876</a></h4>
             <p class="description">1 dormitorio<br>
               - 2 baños completos <br>
               - Cocina comedor <br>
               - Lavadero <br>
               - Living comedor amplio <br>
-              - Balcón a la calle <br></p>
+              - Balcón a la calle <br>
+              - $5.750.000 <br></p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
           <div class="icon-box">
-            <h4 class="title"><a href="">Departamento en venta ubicado en calle Marcos Paz 459</a></h4>
+            <h4><a class="title" href="">Departamento en venta ubicado en calle Marcos Paz 459</a></h4>
             <p class="description">- 2 dormitorios con placard empotrado <br>
               - 2 baños completos <br>
               - Cocina comedor <br>
               - Lavadero <br>
               - Living comedor amplio <br>
-              - Balcón a la calle <br< /p>
+              - Balcón a la calle <br>
+              - $10.000.000 <br></p>
           </div>
         </div>
 
@@ -179,8 +270,8 @@
   </a>
 
   <footer>
-    <span style="font-size: 11px;">Copyright &copy; - Gerardo Navarro &reg;</span>
-    <div style="margin-top: 10px">
+    <span>Copyright &copy; - Gerardo Navarro &reg;</span>
+    <div>
       <span>
         <i class="fab fa-facebook"></i>
       </span>
@@ -195,7 +286,10 @@
       </span>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

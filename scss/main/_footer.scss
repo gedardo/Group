@@ -2,6 +2,21 @@ footer {
     background: $footer;
     color: $secundary;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: $medium;
+    height: auto;
+    i {
+        font-size: $med-small;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 280px){
+    .footer{
+        width: 100%;
+    }
+}
+
+span{
+    font-size: $min;
 }

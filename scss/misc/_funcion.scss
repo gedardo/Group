@@ -1,16 +1,16 @@
 .linear-gradient {
-    background-image: linear-gradient(to top, #6c31af, #fed8a0);
+    background-image: linear-gradient(to top, $action, $secundary);
     width: 100%;
 }
 
 .animate-big {
-    width: 800px;
-    height: 200px;
-    transition: all 1s;
+    width: 80%;
+    height: 80%;
+    transition: all 2s;
 
     &:hover {
-        height: 300px;
-        width: 800px;
+        height: 100%;
+        width: 100%;
     }
 }
 
